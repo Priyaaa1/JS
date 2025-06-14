@@ -21,3 +21,27 @@ const myFunction = function(){
 // console.log(typeof myFunction); // function object
 // console.log(typeof(myObj.name)); // string
 
+
+// ******************************************************
+
+// Memory
+
+//  Stack (Primitive), Heap (Non-primitive)
+
+let myname = "priya"
+let anothername = myname
+anothername = "priyaaa"
+
+// console.log(myname); //priya
+// console.log(anothername); //priyaaa
+
+let user1 = {
+    email: "priya@gmail.com",
+    upi: "xyz@ybl"
+}
+let user2 = user1
+user2.email = "pm@gmail.com"
+// console.log(user1.email); //pm@gmail.com
+// console.log(user2.email); //pm@gmail.com
+
+// heap k andr jo bhi jata h, uska reference hi milta h
