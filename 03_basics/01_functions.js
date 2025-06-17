@@ -64,4 +64,3 @@ function returnSecValue(getArray){
     return getArray[1]
 }
 console.log(returnSecValue(myNewArray)); // 400
-console.log(returnSecValue([300,]));
