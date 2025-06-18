@@ -1,0 +1,23 @@
+JavaScript Execution Context
+
+* JS Code ---> Global Execution Context (this)
+Browser and nodeJS ka EC alg alg hota h
+
+* Function Execution Context
+
+* Eval Execution Context
+
+__________________________________________________________________________
+
+* Memory Creation Phase - variables ki jgh create hoti h, without executing them
+1. Global Execution Phase - this se allocate krte h
+2. Memory Phase - variables wghra ko rkha jata h bss (no values)
+
+* Execution Phase - 
+Variables m values jaengi
+Jitni baar function execute hoga, hr baar bnega -> new variable env + execution thread
+waps se Global EC bnega and all
+new EC jo bna tha wo kaam hone k baad delete ho jaega
+
+Call stack-
+Global Execution Context
