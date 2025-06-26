@@ -32,7 +32,7 @@ button {
   /* margin-left: 50px; */
 }
 
-#subt {
+#submit {
   background-color: #161616;
   color: #ffffff;
   width: 200px;
@@ -40,7 +40,7 @@ button {
   border-radius: 10px;
   font-size: 20px;
   border-style: none;
-  margin-top: 50px;
+  margin-top: 20px;
   /* margin-left: 75px; */
 }
 
@@ -64,15 +64,15 @@ button {
   color: #fff;
 }
 
-.guesses {
+/* .guesses {
   background-color: #7a7a7a;
-}
+} */
 
 #wrapper {
   box-sizing: border-box;
   text-align: center;
   width: 450px;
-  height: 550px;
+  height: 600px;
   background-color: #474747;
   color: #fff;
   font-size: 25px;
