@@ -1,0 +1,5 @@
+JavaScript --> Synchronous, Single threaded
+
+Blocking code - block the flow of program (read file sync)
+
+Non-blocking code - does not block execution (read file async)
